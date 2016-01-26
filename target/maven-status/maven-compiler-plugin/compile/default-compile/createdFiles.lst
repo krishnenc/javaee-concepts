@@ -1,0 +1,10 @@
+com\krishnen\demo\Constants.class
+com\krishnen\demo\JobTask.class
+com\krishnen\demo\batches\ProcessFileCompleted.class
+com\krishnen\demo\DemoService.class
+com\krishnen\demo\Metrics.class
+com\krishnen\demo\Redis.class
+com\krishnen\demo\batches\ProcessFileBatchlet.class
+com\krishnen\demo\Singleton.class
+com\krishnen\demo\FileUpload.class
+com\krishnen\demo\DemoAPI.class

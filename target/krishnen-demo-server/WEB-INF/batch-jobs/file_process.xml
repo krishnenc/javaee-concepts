@@ -1,0 +1,9 @@
+<job id="file_process" xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="1.0">
+  <step id="process_file" next="process_file_complete">
+    <batchlet ref="ProcessFileBatchlet"></batchlet>
+  </step>   
+  <step id="process_file_complete">
+    <batchlet ref="ProcessFileCompleted"></batchlet>
+    <end on="COMPLETED"/>
+  </step>       
+</job>
